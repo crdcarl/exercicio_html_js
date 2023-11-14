@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./main.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Valindando valores</h1>
+        <form id="valid-form">            
+            <label for="n1"> Digite o primeiro Valor </label>
+            <input type="number" id="n1" required placeholder="Primeiro Valor" />
+            <label for="n2">Digite o Segundo Valor</label>
+            <input type="number" id="n2" required placeholder="Segundo Valor" />
+            <p class="error-message">O valor B precisa ser maior que o valor A </p>
+            <p class="success-message">Formulario enviado com sucesso. </p>
+            <button type="submit">Valide</button>
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
